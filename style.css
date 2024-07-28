@@ -214,7 +214,74 @@ style for footer
 Media Query started
 ---------------------- */
 @media only screen and (max-width: 576px) {
-    
+    .main-nav{
+        padding: 5px;
+        gap: 0;
+    }
+    .main-nav>h2{
+        font-size: 15px;
+    }
+    .main-nav ul{
+        padding-top: 0px;
+        font-size: 9px;
+        gap: 5px;
+    }
+    .main-nav li{
+        margin-left: 0px;
+        padding: 0px;
+    }
+    .banner{
+        text-align:center;
+        padding: 0px;
+        width: 65%;
+    }
+    .banner-title{
+        font-weight: 500;
+        font-size: 15px;
+    }
+    .banner-despriction{
+        padding: 10px;
+        font-weight: 300px;
+        font-size: 10px;
+        width: 100%;
+    }
+    .primary-btn{
+        border-radius: 8px;
+        background: rgb(255, 144, 14);
+        height: 25px;
+        width: 50px;
+        margin-top: 5px;
+        border: none;
+        color: aliceblue;
+        font-size: 6px;
+    }
+    .banner-image{
+        width: 65%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .feature{
+        column-gap: 10px;
+        padding-top: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .feature-image{
+        display:inline;
+        
+    }
+    .feature-image>img{
+        width: 60px;
+    }
+    .feature-details>h2{
+        font-size: 20px;
+    }
+    .feature-details>p{
+        font-size: 10px;
+    }
+
+
+
 }
 /* ----------------------
 Media query end
